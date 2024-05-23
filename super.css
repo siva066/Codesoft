@@ -10,11 +10,12 @@
     font-family: 'Poppins', sans-serif;
 }
 :root {
-    --bg-color: #1e1e1e;
-    --second-bg-color: #2e2e2e;
-    --text-color: #eaeaea;
-    --second-color: #b0b0b0;
-    --main-color: #ff6f61;
+    --bg-color: #1d1d1d;
+    --second-bg-color: #333333;
+    --text-color: #f0f0f0;
+    --second-color: #a0a0a0;
+    --main-color: #ff5f57;
+    --accent-color: #57ff5f;
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.3rem;
@@ -84,7 +85,7 @@ section {
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url(/img/maaaa.jpg);
+    background-image: url(/img/new_background.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -103,8 +104,8 @@ section {
     line-height: 32px;
     font-size: 20px;
     font-weight: 500;
-    border-radius: 5px;
-    background: var(--main-color);
+    border-radius: 15px;
+    background: var(--accent-color);
     color: var(--text-color);
 }
 
@@ -121,7 +122,7 @@ section {
     color: var(--text-color);
     line-height: 1.1;
     margin: 0 0 8px;
-
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .home-text h3 {
@@ -130,6 +131,7 @@ section {
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.1;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .home-text p {
@@ -149,7 +151,7 @@ section {
     display: inline-block;
     padding: 12px;
     background: var(--main-color);
-    border-radius: 5px;
+    border-radius: 10px;
     color: var(--text-color);
     font-size: 1rem;
     letter-spacing: 1px;
@@ -172,8 +174,7 @@ section {
     max-width: 530px;
     height: auto;
     width: 100%;
-    border-radius: 5px;
-
+    border-radius: 15px;
 }
 
 .about-text h2 {
@@ -194,126 +195,130 @@ section {
     font-size: var(--p-font);
     font-family: 'Times New Roman', Times, serif;
 }
-    .resume .resume-title {
-        font-size: 26px;
-        font-weight: 700;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        color: var(--main-color);
-      }
-      
-      .resume .resume-item {
-        padding: 0 0 20px 20px;
-        margin-top: -2px;
-        border-left: 2px solid var(--main-color);
-        position: relative;
-      }
-      
-      .resume .resume-item h4 {
-        line-height: 18px;
-        font-size: 18px;
-        font-weight: 600;
-        text-transform: uppercase;
-        font-family: "Poppins", sans-serif;
-        color: #fcfdfd;
-        margin-bottom: 10px;
-      }
-      
-      .resume .resume-item h5 {
-        font-size: 16px;
-        background: var(--main-color);
-        padding: 5px 15px;
-        display: inline-block;
-        font-weight: 600;
-        margin-bottom: 10px;
-      }
-      
-      .resume .resume-item ul {
-        padding-left: 20px;
-      }
-      
-      .resume .resume-item ul li {
-        padding-bottom: 10px;
-      }
-      
-      .resume .resume-item:last-child {
-        padding-bottom: 0;
-      }
-      
-      .resume .resume-item::before {
-        content: "";
-        position: absolute;
-        width: 16px;
-        height: 16px;
-        border-radius: 50px;
-        left: -9px;
-        top: 0;
-        background: #fff;
-        border: 2px solid var(--main-color);
-      }
 
-.skills{
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--main-color);
+}
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid var(--main-color);
+    position: relative;
+}
+
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+    font-size: 16px;
+    background: var(--main-color);
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item ul {
+    padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+    padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid var(--main-color);
+}
+
+.skills {
     position: relative;
     max-width: 1500px;
     width: 100%;
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     margin: 0 15px;
     padding: 10px 20px;
     border-radius: 7px;
 }
-.skills .skill-box{
+.skills .skill-box {
     width: 100%;
     margin: 30px 0;
 }
-.skill-box .title{
+.skill-box .title {
     display: block;
     font-size: 25px;
     font-weight: 600;
     color: var(--text-color);
 }
-.skill-box .skill-bar{
+.skill-box .skill-bar {
     height: 15px;
     width: 100%;
     border-radius: 10px;
     margin-top: 6px;
-    background: rgba(248, 244, 244, 0.907);
+    background: rgba(200, 200, 200, 0.8);
 }
-.skill-bar .skill-per{
+.skill-bar .skill-per {
     position: relative;
     display: block;
     height: 100%;
-    width: 90%;
-    border-radius:  10px;
+    border-radius: 10px;
     background: var(--main-color);
     animation: progress 0.4s ease-in-out forwards;
     opacity: 0;
 }
-.skill-per.css{
+.skill-per.css {
     width: 70%;
+    background: #ffdf57;
     animation-delay: 0.1s;
 }
-.skill-per.javascript{
+.skill-per.javascript {
     width: 50%;
+    background: #57ff5f;
     animation-delay: 0.2s;
 }
-.skill-per.python{
+.skill-per.python {
     width: 65%;
+    background: #5f57ff;
     animation-delay: 0.3s;
 }
-.skill-per.Java{
+.skill-per.java {
     width: 65%;
+    background: #ff57a3;
     animation-delay: 0.4s;
 }
 @keyframes progress {
-    0%{
+    0% {
         width: 0;
         opacity: 1;
     }
-    100%{
+    100% {
         opacity: 1;
     }
 }
-.skill-per .tooltip{
+.skill-per .tooltip {
     position: absolute;
     right: -14px;
     top: -28px;
@@ -325,7 +330,7 @@ section {
     background: #fbfcfd;
     z-index: 1;
 }
-.tooltip::before{
+.tooltip::before {
     content: '';
     position: absolute;
     left: 50%;
@@ -334,20 +339,4 @@ section {
     width: 20px;
     z-index: -1;
     background-color: #fbfcfd;
-    transform: translateX(-50%) rotate(45deg);
-}
-
-.portfolio-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-    align-items: center;
-    gap: 2.5rem;
-    margin-top: 5rem;
-}
-
-.row {
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-    cursor: pointer;
 }
