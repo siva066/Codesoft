@@ -160,7 +160,6 @@ section {
 .btn:hover {
     transform: scale(0.9);
 }
-
 .about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
