@@ -13,8 +13,8 @@
     --bg-color: #000;
     --second-bg-color: #202020;
     --text-color: #fff;
-    --second-color: #ff69b4;
-    --main-color: #ff69b4;
+    --second-color: #ccc;
+    --main-color: #05b4ff;
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.3rem;
@@ -160,6 +160,7 @@ section {
 .btn:hover {
     transform: scale(0.9);
 }
+
 .about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -641,4 +642,4 @@ form textarea {
     width: auto;
     padding-right: 20px 15px;
   }
-    }
+}
