@@ -401,7 +401,7 @@ form textarea {
 .contact-form .submit {
     display: inline-block;
     font-size: 16px;
-    background: var(--bg-color);
+    background: var(--text-color);
     color: var(--main-color);
     width: 160px;
     transition: all .45s ease;
