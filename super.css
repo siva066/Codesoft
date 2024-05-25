@@ -399,8 +399,6 @@ form textarea {
 }
 
 .contact-form .submit {
-    <center><button  style="border-radius:22px;width:90px;height:40px ;border:2px solid skyblue;background-color:ED820E"><b>submit</b> </center>
-    
     display: inline-block;
     font-size: 16px;
     background: var(--bg-color);
