@@ -55,7 +55,7 @@ header nav ul li a.active {
 /* Home Section */
 .home {
     background: url('IMG_20221005_113726.jpg') no-repeat center center/cover;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
