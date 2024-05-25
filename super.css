@@ -385,7 +385,7 @@ form textarea {
     width: 100%;
     padding: 14px;
     background: var(--bg-color);
-    color: var(#ff6f00);
+    color: var(#1c1c1c);
     border: none;
     outline: none;
     font-size: 15px;
@@ -402,7 +402,7 @@ form textarea {
     display: inline-block;
     font-size: 16px;
     background: var(--text-color);
-    color: var(--main-color);
+    color: var(#1c1c1c);
     width: 160px;
     transition: all .45s ease;
 }
