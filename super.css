@@ -384,8 +384,8 @@ header nav ul li a.active {
 form textarea {
     width: 100%;
     padding: 14px;
-    background: var(--second-color);
-    color: var(--text-color);
+    background: var(--bg-color);
+    color: var(#ff6f00);
     border: none;
     outline: none;
     font-size: 15px;
