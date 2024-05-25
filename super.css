@@ -309,7 +309,7 @@ header nav ul li a.active {
 
 /* Contact Section */
 .contact {
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -385,7 +385,7 @@ form textarea {
     width: 100%;
     padding: 14px;
     background: var(--bg-color);
-    color: var(#1c1c1c);
+    color: var(--text-color);
     border: none;
     outline: none;
     font-size: 15px;
@@ -402,7 +402,7 @@ form textarea {
     display: inline-block;
     font-size: 16px;
     background: var(--text-color);
-    color: var(#1c1c1c);
+    color: var(--main-color);
     width: 160px;
     transition: all .45s ease;
 }
