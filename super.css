@@ -308,40 +308,32 @@ header nav ul li a.active {
 }
 
 /* Contact Section */
- <h2 id="CONTACT&nbsp;ME" style="font-size:70px">CONTACT&nbsp;<span style="color:#ED820E">ME</span></h2>
-<forms style="float:right; margin-right:60px">
-            
-            <fieldset style="width:700px;font-weight:500"><legend>Details</legend><p></p>
-Enter name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="text" name="username" placeholder="Enter your name"><p></p>
-        
-Enter gmail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="gmail" name="gmail" placeholder="Enter your gmail"><p></p>
-        
-        Description:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<textarea rows="1" cols="40" placeholder="How can I help you"></textarea><p></p>
-project details:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<input type="file" name="image" accept="image/*">
-</br>
-</br>
-</br>
-</br>
+.contact {
+background: var(--second-bg-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
 
-<center><button  style="border-radius:22px;width:90px;height:40px ;border:2px solid skyblue;background-color:ED820E"><b>submit</b> </center>
+.contact-text h4 {
+    color: var(--text-color);
+    margin: 18px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
 
-</fieldset>
+.contact-text h2 {
+    font-size: var(--h2-font);
+    line-height: 1;
+}
 
- </forms> 
- </br>
-<div style="margin-left:70px;margin-bottom:200px;margin-top:20px;">
-  <p style="color:white;font-size:20px;font-weight:100px"> If you have any project idea,don't hesitate to reach through any of the contact options provided.  </p></br></br>
- <i class="fa-solid fa-phone-volume fa-shake fa-2xl"></i> &nbsp;:&nbsp;+917993544599 </br></br></br>
- <i class="fa-regular fa-envelope fa-2xl"></i>&nbsp; :&nbsp; bsivanagakumar09@gmail.com</br>
-
-</div>
-  <center style="color:ED820E "><b>THANK YOU!</b></center>
-</body>
-</html>
+.contact-text p {
+    color: var(--second-color);
+    font-size: var(--p-font);
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
 
 .list {
     margin-bottom: 2.8rem;
